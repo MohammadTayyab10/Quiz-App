@@ -1,0 +1,275 @@
+body {
+    background-color: gray;
+
+}
+
+/* Sign In Page */
+
+.mains {
+    flex-direction: column;
+    border-radius: 30px;
+    width: 40%;
+    background-color: rgba(100, 182, 76, 0.651);
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.849);
+    border: 5px double rgb(0, 0, 0);
+}
+
+#ullu{
+    padding-right: 30px;
+}
+
+#gets {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    color: #000;
+    text-decoration: underline;
+}
+
+#sa {
+    color: white;
+    padding-right: 378px;
+    font-size: 25px;
+}
+
+#as {
+    color: white;
+    padding-right: 304px;
+    font-size: 25px;
+}
+
+#bs {
+    color: white;
+    padding-right: 304px;
+    font-size: 25px;
+}
+
+/* QUIZ CODE */
+
+#main {
+    width: 600px;
+    background-color: rgba(100, 182, 76, 0.651);
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.849);
+    padding-bottom: 1px;
+    border: 5px double rgb(0, 0, 0);
+    margin-top: 120px;
+    display: none;
+}
+
+#nav {
+    background-color: black;
+    height: 30px;
+    color: #fff;
+    padding-top: 8px;
+    font-size: x-large;
+    padding: 8px 8px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+#get {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: start;
+    padding-left: 10px;
+    color: #fff;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: start;
+    list-style-type: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.pop{
+    padding: 7px 30px;
+    background-color: rgb(9, 39, 1);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.pop:hover {
+    background-color: rgb(7, 29, 1);
+    text-decoration: underline;
+}
+
+#sub {
+    padding: 7px 30px;
+    background-color: rgb(9, 39, 1);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#sub:hover {
+    background-color: rgb(7, 29, 1);
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#subs {
+    padding: 7px 30px;
+    background-color: rgb(9, 39, 1);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#subs:hover {
+    background-color: rgb(7, 29, 1);
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#size {
+    border: 1px solid #000000;
+    width: 95%;
+}
+
+p {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+/* MARKSHEET CSS */
+
+#form2 {
+    width: 70%;
+    background-color: rgba(100, 182, 76, 0.651);
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.849);
+    margin: 0 auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 5px double rgb(0, 0, 0);
+}
+
+#ice {
+    color: black;
+    font-size: 30px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+#ass {
+    color: white;
+    padding-right: 320px;
+    font-size: 25px;
+}
+
+#sd {
+    color: white;
+    padding-right: 335px;
+    font-size: 25px;
+}
+
+#sa {
+    color: white;
+    padding-right: 378px;
+    font-size: 25px;
+}
+
+input::placeholder {
+    color: orangered;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.result {
+    position: absolute;
+    width: 50%;
+    left: -208%;
+    margin-left: 100px;
+    z-index: 300;
+}
+
+i {
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    right: 120px;
+    font-weight: bolder;
+}
+
+.input1 {
+    width: 97%;
+    height: 30px;
+    color: black;
+    border-radius: 15px;
+    border:none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 5px;
+    margin-bottom: 10px;
+}
+
+#show{
+    display: none;
+}
+
+/* MediaQuery */
+
+    @media screen and (max-width: 400px)  {
+        #mains{
+            width: 300px;
+            margin-top: 0px;
+            padding-right: 20px;
+        }
+        #main{
+            width: 300px;
+            margin: 0px;
+        }
+        .result{
+            width: 400px;
+        }
+        #as{
+            padding-right: 130px;
+        }
+        #bs{
+            padding-right: 50px;
+        }
+        #ass{
+            padding-right: 130px;
+        }
+        #sd{
+            padding-right: 140px;
+        }
+        #sa{
+            padding-right: 200px;
+        }
+    }

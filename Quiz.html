@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://Quiz Website.com</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="Quiz.css">
+
+    <!-- Link FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Sign In Page Start-->
+
+    <center>
+        <div class="mains" id="nun1">
+            <div id="sets">
+
+                <h2 id="gets">Please Fill Foam</h2>
+                <ul id="ullu">
+                    <li>
+                        <h4 id="ass">Name:</h4>
+                        <input type="text" id="nam" class="input1">
+                    </li>
+                    <li>
+                        <h4 id="bs">Roll Number:</h4>
+                        <input type="text" id="roll" class="input1">
+                    </li>
+                </ul>
+                <button id="subs" onclick="submit()">Submit</button>
+                <button id="subs" onclick="rstrt()">Restart</button>
+                <hr id="size">
+                <p>Made by <a href="https://github.com/MohammadTayyab10" target="_blank">MohammadTayyab</a></p>
+            </div>
+    </center>
+
+    <!-- Sign In Page End-->
+
+    <!-- Quiz Code Start-->
+
+    <center>
+        <div id="main">
+            <div id="set">
+                <nav id="nav">Quiz Website</nav>
+
+                <h2 id="get">Q1: Question</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="ans" id="ans1" class="inp">
+                        <label for="ans1" id="opt1">Option1</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans2" class="inp">
+                        <label for="ans2" id="opt2">Option2</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans3" class="inp">
+                        <label for="ans3" id="opt3">Option3</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="ans" id="ans4" class="inp">
+                        <label for="ans4" id="opt4">Option4</label>
+                    </li>
+                </ul>
+                <button id="sub">Submit</button>
+                <button id="subs" onclick="rstrt()">Restart</button>
+                <button onclick="grade()" id="show" class="pop">RESULT</button>
+            </div>
+            <hr id="size">
+            <div>
+                <p>Made by <a href="https://github.com/MohammadTayyab10" target="_blank">Mohammad Tayyab</a></p>
+            </div>
+        </div>
+    </center>
+
+    <!-- Quiz Code End-->
+
+    <!-- MarkSheet Code Start-->
+
+    <div class="result" id="see">
+        <div class="form3" id="form2">
+            <i class="fa fa-xmark" onclick="hideSee()"></i>
+            <h2 id="ice"><u>Result</u></h2>
+            <h4 id="sa">Name:</h4>
+            <input type="text" id="name1" class="input1" readonly>
+            <h4 id="as">Roll Number:</h4>
+            <input type="text" id="rollNum1" class="input1" readonly>
+            <h4 id="ass">Total Marks:</h4>
+            <input type="text" id="total1" class="input1" readonly>
+            <h4 id="sd">Percentage:</h4>
+            <input type="text" id="percentage" class="input1" readonly>
+            <h4 id="sa">Grade:</h4>
+            <input type="text" id="grades" class="input1" readonly>
+        </div>
+    </div>
+
+    <!-- MarkSheet Code End-->
+
+    <!-- Link JS -->
+    <script src="Quiz.js"></script>
+
+</body>
+
+</html>
